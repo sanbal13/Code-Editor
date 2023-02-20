@@ -1,0 +1,35 @@
+/* Editor */
+.editor-header {
+    background-color: #DCDCDC;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.dots {
+    display: flex;
+    align-self: center;
+}
+
+.dot1, .dot2, .dot3 {
+    border-radius: 50%;
+    height: .7rem;
+    width: .7rem;
+    margin: .2rem;
+}
+
+.dot1 {
+    background-color: #DC143C;
+}
+.dot2 {
+    background-color: #FFA500;
+}
+.dot3 {
+    background-color: #32CD32;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem;
+}
